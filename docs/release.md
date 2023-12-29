@@ -1,6 +1,20 @@
 # Release notes for Demucs
 
-## V4.0.1a1, TBD
+## V4.1.0a1, TBD
+
+Get models list
+
+Check segment of HTDemucs inside BagOfModels
+
+Added api.py to be called from another program
+
+Use api in separate.py
+
+Added `--other-method`: method to get `no_{STEM}`, add up all the other stems (add), original track substract the specific stem (minus), and discard (none)
+
+Added type `HTDemucs` to type alias `AnyModel`.
+
+## V4.0.1, 8th of September 2023
 
 **From this version, Python 3.7 is no longer supported. This is not a problem since the latest PyTorch 2.0.0 no longer support it either.**
 
